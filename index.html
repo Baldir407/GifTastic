@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Action Stars</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="container"><br>
+
+		<header> <h1>Action Stars</h1> </header>
+
+
+		<!-- Rendered buttons will get dumped Here  -->
+		<div id="buttons-view"></div><br>
+
+		<!-- Submit action star form -->
+		<form class="navbar-form navbar-right" id="star-form">
+			<div class="form-group">
+				<label for="star-input"><h3>Add -Your- Favorite Star</h3></label>
+			</div>
+			<input type="text" id="star-input"><br>
+
+			<!-- Button triggers new action star to be added -->
+			<input id="add-star" button type="submit" class="btn btn-deafult" value="Submit">
+		</form>
+
+		<!-- Gifs will get dumped dere -->
+		<div id="stars-view" data-state="still"></div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="giftastic.js"></script>
+
+	
+</body>
+</html>
